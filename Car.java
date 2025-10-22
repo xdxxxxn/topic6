@@ -2,16 +2,16 @@ public class Car {
   private int id;
   private String brand;
   private String model;
-  private int yers;
+  private int year;
   private String color;
   private double price;
   private String regnumber;
 
-  public Car(int id, String brand, String model, int yers, String color, double price, String regnumber) {
+  public Car(int id, String brand, String model, int year, String color, double price, String regnumber) {
     this.id = id;
     this.brand = brand;
     this.model = model;
-    this.yers = yers;
+    this.year = year;
     this.color = color;
     this.price = price;
     this.regnumber = regnumber;
@@ -22,10 +22,10 @@ public class Car {
   public void setId(int id) {
   this.id = id;
   }
-  public String getBrend() { 
+  public String getBrand() { 
   return brand; 
   }
-  public void setBrend(String brand) { 
+  public void setBrand(String brand) { 
   this.brand = brand;
   }
   public String getModel() { 
@@ -34,11 +34,11 @@ public class Car {
   public void setModel(String model) { 
   this.model = model;
   }
-  public int getYers() { 
+  public int getYear() { 
   return yers; 
   }
-  public void setYers(int yers) { 
-  this.yers = yers;
+  public void setYear(int year) { 
+  this.year = year;
   }
   public String getColor() { 
   return color; 
