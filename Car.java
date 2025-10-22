@@ -23,15 +23,15 @@ public class Car {
   this.id = id;
   }
   public String getBrend() { 
-  return brend; 
+  return brand; 
   }
-  public void setId(String brand) { 
+  public void setBrend(String brand) { 
   this.brand = brand;
   }
   public String getModel() { 
   return model; 
   }
-  public void setId(String model) { 
+  public void setModel(String model) { 
   this.model = model;
   }
   public int getYers() { 
@@ -52,10 +52,10 @@ public class Car {
   public void setPrice(double price) { 
   this.price = price;
   }
-  public String getGetnumber() { 
-  return getnumber; 
+  public String getRegnumber() { 
+  return regnumber; 
   }
-  public void setGetnumber(String getnumber) { 
+  public void setRegnumber(String regnumber) { 
   this.regnumber = regnumber;
   }
 
