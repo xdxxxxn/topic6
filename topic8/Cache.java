@@ -18,4 +18,8 @@ public class Cache<T> {
             items.removeFirst();
         }
     }
+
+    public boolean remove(T item) {
+        return items.remove(item);
+    }
 }
